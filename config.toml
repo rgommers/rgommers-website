@@ -25,8 +25,8 @@ canonifyurls = true
 
 [author]
   name = "Ralf Gommers"
-  bio = "Super bio with markdown support **COOL**"
-  job = "Data scientist & scientific open source developer"
+  bio = "Physicist turned data scientist, with a passion for pushing the scientific Python ecosystem forward"
+  job = "Data scientist"
   location = "Vancouver, Canada"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "ralf.gommers@gmail.com"
@@ -72,8 +72,12 @@ canonifyurls = true
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/rgommers"
-
-# TODO: LinkedIn?
+[[menu.links]]
+  weight = 2
+  identifier = "linkeding"
+  name = "LinkedIn"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
+  url = "https://linkedin.com/ralfgommers"
 
 [[menu.misc]]
   weight = 1

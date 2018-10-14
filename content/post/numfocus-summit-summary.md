@@ -1,6 +1,12 @@
 ---
 title: "2018 NumFOCUS Summit - a summary"
 date: 2018-10-13
+categories:
+- Python
+tags:
+- NumFOCUS
+- NumPy
+- roadmap
 ---
 
 During 22-25 Sep 2018 I attended the [NumFOCUS Summit](https://summit.numfocus.org). It consisted of two 2-day parts: the Sustainability Workshop (attended by 1-3 maintainers of almost all sponsored projects), and the Project Forum (attended by a subset of those maintainers plus a number of key industry stakeholders).  I attended wearing two hats: as a member of the NumFOCUS Board of Directors, and as a maintainer of NumPy.  Besides me, NumPy was represented by Allan Haldane, whom I had the pleasure to meet in person for the first time.  In this post I'll focus on topics that are relevant to NumPy.  Most ideas/answers about NumPy in this post are mine, and not in any way "official NumPy policy".
