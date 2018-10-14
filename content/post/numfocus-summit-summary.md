@@ -11,15 +11,24 @@ tags:
 
 During 22-25 Sep 2018 I attended the [NumFOCUS Summit](https://summit.numfocus.org). It consisted of two 2-day parts: the Sustainability Workshop (attended by 1-3 maintainers of almost all sponsored projects), and the Project Forum (attended by a subset of those maintainers plus a number of key industry stakeholders).  I attended wearing two hats: as a member of the NumFOCUS Board of Directors, and as a maintainer of NumPy.  Besides me, NumPy was represented by Allan Haldane, whom I had the pleasure to meet in person for the first time.  In this post I'll focus on topics that are relevant to NumPy.  Most ideas/answers about NumPy in this post are mine, and not in any way "official NumPy policy".
 
+
 ## The NumPy Roadmap
 
-During the Summit I gave two 15 minute presentations about the NumPy roadmap.  The first one ([slides](TODO)) was aimed at explaining how we constructed the NumPy roadmap, and what other projects could learn from the process we went through.  The second one ([slides](TODO)) was much more about the roadmap itself - what's on it, and why.
+During the Summit I gave two 15 minute presentations about the NumPy roadmap.  The first one ([slides](https://www.slideshare.net/RalfGommers/numfocussummit2018roadmapssession)) was aimed at explaining how we constructed the NumPy roadmap, and what other projects could learn from the process we went through.  The second one ([slides](https://www.slideshare.net/RalfGommers/numpy-roadmap-presentation-at-numfocus-forum)) was much more about the roadmap itself - what's on it, and why.
 
-<insert image of hierarchy>
+Here is the key idea from the first presentation:
 
-One valid criticism was about the "NumPy Scope" page.  That page starts with saying "this is not an aspirational definition of the scope of NumPy ..." - and the obvious question is: *why not*?  Other than that, the roadmap and ideas about different having both a technical and non-technical roadmap targeted at different audiences were very well received though.
+{{< image classes="fig-75 center clear" src="/images/numpy_roadmaps_hierarchy.png" title="NumPy roadmap types and audiences" >}}
 
-Throughout the Summit I received a lot of *very positive* feedback on and questions about both NEP 18 (`__array_function__`) and the easier custom dtypes plan.  Many projects are interested in using either one or both of those features.  For example, there were a number of peiple discussing units libraries (unyt, TODO) - which would likely benefit from being able to use custom dtypes with units.
+What we have today is the "big picture technical roadmap".  Most projects that had a roadmap had something similar.  Creating a roadmap aimed at potential funders is much less natural to most people, however it's critical if we are aiming to attract significant funding in a sustainable way. 
+
+One valid criticism of what we have today was about the "NumPy Scope" page.  That page starts with saying "this is not an aspirational definition of the scope of NumPy ..." - and the obvious question is: *why not*?  Other than that though, the roadmap and ideas about different having both a technical and non-technical roadmap targeted at different audiences were very well received.
+
+For the second presentation, what took me the most time to prepare is to put the "scope and vision" of NumPy on a single slide.  Here's the end result:
+
+{{< image classes="fig-75 center clear" src="/images/numpy_scope_and_vision_summit2018.png" title="My view on the scope of and vision for NumPy" >}}
+
+Throughout the Summit I received a lot of very positive feedback on and questions about both NEP 18 (`__array_function__`) and the easier custom dtypes plan.  Many projects are interested in using either one or both of those features.  For example, there were a number of peiple discussing units libraries (unyt, TODO) - which would likely benefit from being able to use custom dtypes with units.
 
 Looking at the state of the roadmaps of all projects, it's clear that there's a lot of work to do.  About half of the projects did not have a roadmap at all and of the ones that did, about half were out of date or very incomplete.  Finally no project had a clear non-technical roadmap.  As a community we still have a lot of work to do here ...
 
@@ -84,4 +93,4 @@ Steve Dower gave an interesting talk/demo of Azure Pipelines.  Microsoft really 
 
 ## Conclusion
 
-The Summit was a great experience for me this year.  Not everything went well and on the last day I ran out of steam, but I would recommend anyone going next year if given the chance.  I've met a large number of interesting people, and learned about new tools, business models and project maintenance ideas. Finally having to present twice on the NumPy roadmap really forced me to think about where the project is (or could be) going.
+The Summit was a great experience for me this year.  Not everything went well and on the last day I ran out of steam, but I would recommend anyone going next year if given the chance.  I've met a large number of interesting people, and learned about new tools, business models and project maintenance ideas.  Finally, having to present twice on the NumPy roadmap really forced me to think about where the project is (or could be) going.
