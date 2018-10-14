@@ -9,7 +9,7 @@
 baseURL = "https://example.org/"  # FIXME
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Personal website of Ralf Gommers"
+title = "Ralf Gommers | Reflections"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "rgommers-personal-site"
 paginate = 7
@@ -32,7 +32,7 @@ canonifyurls = true
   gravatarEmail = "ralf.gommers@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"  # FIXME
+  picture = "https://avatars0.githubusercontent.com/u/98330?s=400&v=4"
 
 # Menu Configuration
 [[menu.main]]
@@ -107,7 +107,7 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Personal website of Ralf Gommers"
+  description = "Ralf Gommers | Reflections"
 
   # Customization
   # Define the behavior of the sidebar
