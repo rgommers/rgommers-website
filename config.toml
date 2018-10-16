@@ -11,7 +11,7 @@ languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Ralf Gommers | Reflections"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "rgommers-personal-site"
+disqusShortname = "rgommers"
 paginate = 7
 canonifyurls = true
 
