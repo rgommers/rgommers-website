@@ -28,7 +28,7 @@ For the second presentation, what took me the most time to prepare is to put the
 
 {{< image classes="fig-75 center clear" src="/images/numpy_scope_and_vision_summit2018.png" title="My view on the scope of and vision for NumPy" >}}
 
-Throughout the Summit I received a lot of very positive feedback on and questions about both NEP 18 (`__array_function__`) and the easier custom dtypes plan.  Many projects are interested in using either one or both of those features.  For example, there were a number of peiple discussing units libraries (unyt, TODO) - which would likely benefit from being able to use custom dtypes with units.
+Throughout the Summit I received a lot of very positive feedback on and questions about both NEP 18 (`__array_function__`) and the easier custom dtypes plan.  Many projects are interested in using either one or both of those features.  For example, there were a number of people discussing units libraries ([unyt](https://unyt.readthedocs.io/en/latest/), [pint](https://pint.readthedocs.io/en/latest/), [astropy.units](http://docs.astropy.org/en/stable/units/)) - which would likely benefit from being able to use custom dtypes with units.
 
 Looking at the state of the roadmaps of all projects, it's clear that there's a lot of work to do.  About half of the projects did not have a roadmap at all and of the ones that did, about half were out of date or very incomplete.  Finally no project had a clear non-technical roadmap.  As a community we still have a lot of work to do here ...
 
