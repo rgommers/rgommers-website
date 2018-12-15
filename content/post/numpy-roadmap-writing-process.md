@@ -12,7 +12,7 @@ NumPy now has a [roadmap](https://www.numpy.org/neps/index.html#roadmap) - long 
 
 ## Act 1: NumPy sprint at BIDS
 
-During 24-25 May 2018 a number of people - Stéfan van der Walt, Charles Harris, Stephan Hoyer, Matti Picus, Jarrod Millman, Nathaniel J. Smith, and Matthew Rocklin - came together at [BIDS](https://bids.berkeley.edu/) in Berkeley for a NumPy sprint.  They had a productive brainstorm, which resulted in a rough draft of a roadmap posted to the mailing list.  The mailing list thread, [A roadmap for NumPy - longer term planning](https://mail.python.org/pipermail/numpy-discussion/2018-June/thread.html#78103), produced more suggestions and after incorporating those a [first pull request](https://github.com/numpy/numpy/pull/11446) was made.
+During 24-25 May 2018 a number of people - Stéfan van der Walt, Charles Harris, Stephan Hoyer, Matti Picus, Jarrod Millman, Jaime Fernandez del Rio, Nathaniel J. Smith, and Matthew Rocklin - came together at [BIDS](https://bids.berkeley.edu/) in Berkeley for a NumPy sprint.  They had a productive brainstorm, which resulted in a rough draft of a roadmap posted to the mailing list.  The mailing list thread, [A roadmap for NumPy - longer term planning](https://mail.python.org/pipermail/numpy-discussion/2018-June/thread.html#78103), produced more suggestions and after incorporating those a [first pull request](https://github.com/numpy/numpy/pull/11446) was made.
 
 ## Act 2: BoF and sprint at SciPy'18
 
