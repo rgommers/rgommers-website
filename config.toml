@@ -25,8 +25,8 @@ canonifyurls = true
 
 [author]
   name = "Ralf Gommers"
-  bio = "Physicist turned data scientist, with a passion for pushing the scientific Python ecosystem forward"
-  job = "Data scientist"
+  bio = "Physicist turned data scientist & open source maintainer, passionate about pushing the scientific Python ecosystem forward"
+  job = "Director, Quansight Labs"
   location = "Vancouver, Canada"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "ralf.gommers@gmail.com"
